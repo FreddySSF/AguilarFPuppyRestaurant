@@ -44,3 +44,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+.photosBorder{
+    border: 5px solid white;
+}
