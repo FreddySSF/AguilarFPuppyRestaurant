@@ -1,21 +1,60 @@
+@font-face {
+    src: url("../fonts/Montauk-Bold.otf");
+    font-family: Montauk-Bold;
+}
+
+@font-face {
+    src: url("../fonts/Montauk-Regular.otf");
+    font-family: Montauk-Regular;
+}
+
+@font-face {
+    src: url("../fonts/Montauk-Light.otf");
+    font-family: Montauk-Light;
+}
+
+@font-face {
+    src: url("../fonts/Montauk-Italic.otf");
+    font-family: Montauk-Italic;
+}
+
+@font-face {
+    src: url("../Fonts/FugazOne-Regular.ttf");
+    font-family: FugazOne-Regular;
+}
+
 body {
     background-image: url("../Assets/bgtexture.jpg");
 }
+
 .homeImg1 {
     background-image: url("../Assets/homeHero.jpg");
     height: 600px;
 }
+
 .homeTextBG {
     background-image: url("../Assets/HomeImage.jpg");
     background-repeat: no-repeat;
     background-color: white;
-    background-position-y:bottom;
+    background-position-y: bottom;
     margin-right: 5rem;
 }
+
 .homeFoot {
     padding-left: 5rem;
     padding-right: 5rem;
 }
+
 .homeWordPadding {
     padding-left: 1rem;
+}
+
+.MontaukFont {
+    font-family: Montauk-Regular;
+    color: #5F002B;
+}
+
+.FugazFont {
+    font-family: FugazOne-Regular;
+    color: #5F002B;
 }
