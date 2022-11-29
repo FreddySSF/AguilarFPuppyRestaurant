@@ -21,3 +21,91 @@
     src: url("../Fonts/FugazOne-Regular.ttf");
     font-family: Fugaz One;
 }
+
+.menu-heading{
+    text-align: center;
+    color: #5F002B;
+    background-color: white;
+    font-family: Fugaz One;
+}
+
+.nav-link{
+    color: #5F002B;
+}
+.menu-body{
+    background-image: url(../Assets/bgtexture.jpg);
+}
+
+.food-type{
+    color: #5F002B;
+    font-family: Fugaz One;
+    padding-top: 10em;
+}
+
+.menuImg{
+    width: 39em;
+    height: auto;
+}
+
+.menuSectionSandwiches{
+    background-color: white;
+    background-image: url("../Assets/menubeef.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+}
+
+.menuSectionSeafood{
+    background-color: white;
+    background-image: url("../Assets/menuseafood.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+}
+
+.menuSectionGrill{
+    background-color: white;
+    background-image: url("../Assets/menumeat.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+}
+
+.menuSectionDesserts{
+    background-color: white;
+    background-image: url("../Assets/menudesserts.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+}
+
+.menuItem{
+    margin: 0.5em;
+    height: 5em;
+    color: #5F002B;
+    font-family: Montauk-Regular;
+}
+
+.foodDescription{
+    font-family: Montauk-Regular;
+    color: #5F002B;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    font-family: Montauk-Regular;
+    color: #5F002B;
+    height: 4em;
+}
+
+.footerRight{
+    align-self: right;
+    padding-left: 28em;
+}
+
+.footerLogo{
+    align-self: right;
+    padding-left: 6.2em;
+}
+
+.FugazFont{
+    font-family: Fugaz One;
+    color: #5F002B;
+}
