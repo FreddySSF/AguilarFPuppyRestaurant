@@ -48,3 +48,7 @@ body {
 .photosBorder{
     border: 5px solid white;
 }
+
+.photoPadding{
+    padding-bottom: 12px;
+}
