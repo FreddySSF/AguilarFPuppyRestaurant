@@ -1,14 +1,816 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Menu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+
+<body class="menu-body">
+  <!-- This is the start of the nav code -->
+  <div class="container d-none d-lg-block d-xl-block">
+    <div class="row">
+      <div class="col-md-2 col-lg-2">
+        <div><a class="btn" href="../index.html" role="button"><img src="../Assets/MuzzlesLogo.png" alt="Muzzles Logo"></a></div>
+      </div>
+      <div class="col-10 d-flex justify-content-end">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link FugazFont" aria-current="page" href="../Pages/Aboutpage.html">About</a>
+                <a class="nav-link FugazFont" href="../Pages/Menupage.html">Menu</a>
+                <a class="nav-link FugazFont" href="../Pages/Cateringpage.html">Catering</a>
+                <a class="nav-link FugazFont" href="../Pages/Photospage.html">Photo</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- This is the end of the nav code -->
+
+  <!-- Navbar Tablet -->
+  <div class="container d-none d-md-block d-lg-none">
+    <nav class="navbar navbar-expand-lg AboutHeaderTxt">
+      <div class="container-fluid">
+        <div><a class="btn" href="../index.html" role="button"><img src="../Assets/MuzzlesLogo.png"
+              alt="Muzzles Logo"></a></div>
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link FugazFont" aria-current="page" href="../Pages/Aboutpage.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link FugazFont" href="../Pages/Menupage.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link FugazFont" href="../Pages/Cateringpage.html">Catering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link FugazFont" href="../Pages/Photospage.html">Photo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+<!-- Tablet Navbar end -->
+
+<!-- Navbar Mobile -->
+<div class="container d-block d-sm-none">
+  <nav class="navbar navbar-expand-lg AboutHeaderTxt">
+    <div class="container-fluid">
+      <div><a class="btn" href="../index.html" role="button"><img src="../Assets/MuzzlesLogo.png"
+            alt="Muzzles Logo"></a></div>
+      <div class="col d-flex justify-content-center">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link FugazFont" aria-current="page" href="../Pages/Aboutpage.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link FugazFont" href="../Pages/Menupage.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link FugazFont" href="../Pages/Cateringpage.html">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link FugazFont" href="../Pages/Photospage.html">Photo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- Navbar mobile END -->
+
+  <div class="container menu-heading d-none d-lg-block d-md-block d-flex justify-content-center">
+    <h1>Our Menu</h1>
+  </div>
+  
+  <!-- This is the mobile version of the mobile heading -->
+  <div class="container menu-heading-mobile d-flex d-sm-none">
+    <h1>Our Menu</h1>
+  </div>
+
+  <div class="container  d-none d-lg-block d-md-block">
+    <div class="row">
+
+      <!-- This col will be for the sandwiches menu on the left side of the page -->
+      <div class="col-6">
+        <div class="container menuSectionSandwiches">
+          <!-- Each section of the menu has an h3 heading at the top to let the reader know what types of food items will be there. -->
+          <h3 class="food-type">Sandwiches</h3>
+
+          <!-- There is also a paragraph below each one -->
+          <p class="foodDescription">All sandwiches come with an side of crispy fries</p>
+          <div class="row">
+
+            <div class="col-sm-12 col-lg-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <!-- Each menu item has an h4 heading, which is smaller than an h3  and will fit better -->
+                  <h4>Sizzling Steak Sandwich</h4>
+                  <p>Open faced steak sandwich with grilled belle peppers and fried onions.</p>
+                </div>
+                <div class="col-2">
+                  <!-- The price is also shown as an h4 heading, so that it will be the same size as the names of the meny items -->
+                  <h4>$15.99</h4>
+                </div>
+                <!-- An <hr>, such as the one below, has been added between each menu item to separate them from each other -->
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Tenderloin Sliders</h4>
+                  <p>Three beef tenderloin sliders with horseradish cream and blackberry bbq.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$13.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Classic Chicken Panini</h4>
+                  <p>Grilled chicken with Monterey jack, romaine lettuce, tomato, and cilantro.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$10.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Smoked Turkey Club</h4>
+                  <p>Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$8.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Tuna Sandwich</h4>
+                  <p>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$8.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- This is the end of the sandwiches menu -->
+
+      <!-- This col will be for the seafood menu -->
+      <div class="col-6">
+        <div class="container menuSectionSeafood">
+          <h3 class="food-type">Seafood</h3>
+          <p class="foodDescription">All seafood comes with a side of rice pilaf and grilled vegetables</p>
+          <div class="row">
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Honey Shrimp Skewers</h4>
+                  <p>Ten honey glazed shrimps grilled with sesame seeds and rosemary.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$15.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Grilled Salmon</h4>
+                  <p>Salmon grilled in a lime butter sauce.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$13.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Grilled Tilapia</h4>
+                  <p>A whole grilled tilapia cooked with smoked paprika.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$10.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Parmesan Fish Sticks</h4>
+                  <p>Sliced salmon in parmesan breading served with lemon dill tartar sauce.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$8.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- This is the end of the seafood menu -->
+
+      <!-- This col will be for the grill menu on the left side of the page -->
+      <div class="col-6">
+        <div class="container menuSectionGrill">
+          <h3 class="food-type">On the Grill</h3>
+          <p class="foodDescription">Served with corn, cheddar biscuits, and your choice of coleslaw or potato salad.
+          </p>
+          <div class="row">
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Baby Back - Full Rack</h4>
+                  <p>A full rack of pork babyback ribs grilled and glazed with blackberry bbq.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$19.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Baby Back - Half Rack</h4>
+                  <p>A half rack of pork babyback ribs grilled and glazed with blackberry bbq.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$13.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Boneless Ribeye</h4>
+                  <p>A three inch thick boneless ribeye grilled in a rosemary rub and butter</p>
+                </div>
+                <div class="col-2">
+                  <h4>$25.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Smoked Turkey Club</h4>
+                  <p>Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$8.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Tuna Sandwich</h4>
+                  <p>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$6.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- This is the end of the grill menu -->
+
+      <!-- This col will be for the desserts menu -->
+      <div class="col-6">
+        <div class="container menuSectionDesserts">
+          <h3 class="food-type">Desserts</h3>
+          <p class="foodDescription">A shot of esspresso can be added to any dessert for an additional $2.</p>
+          <div class="row">
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Double Walnut Brownies</h4>
+                  <p>Two brownies with a walnut crust, ice cream and chocolate sauce.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$8.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Cheese Cake with Chocolate Sauce</h4>
+                  <p>Cheesecake with ice cream, chocolate shavings and chocolate sauce.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$7.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Tripple Chocolate Brownie</h4>
+                  <p>A tripple chocolate brownie served with vanilla ice cream and walnuts.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$6.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>House Made Shaved Gelato and Cookies</h4>
+                  <p>Your choice of shaved gelato with whole cookies. Options change daily.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$5.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Grilled Peaches and Ice Cream</h4>
+                  <p>Grilled peaches in cinnamon and brown sugar glaze with ice cream.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$4.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- This is the end of the desserts menu -->
+
+    </div>
+  </div>
+
+
+  <!-- This is the start of the mobile version of the menu -->
+
+  <div class="container d-block d-sm-none">
+    <div class="row menuMobile">
+
+      <div class="col-12">
+        <div class="container menuSectionSandwichesMobile">
+          <br>
+          <h3 class="food-type">Sandwiches</h3>
+
+          <p class="foodDescription">All sandwiches come with an side of crispy fries</p>
+          <div class="row">
+
+            <div class="col-sm-12 col-lg-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Sizzling Steak Sandwich</h4>
+                  <p>Open faced steak sandwich with grilled belle peppers and fried onions.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$15.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Tenderloin Sliders</h4>
+                  <p>Three beef tenderloin sliders with horseradish cream and blackberry bbq.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$13.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Classic Chicken Panini</h4>
+                  <p>Grilled chicken with Monterey jack, romaine lettuce, tomato, and cilantro.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$10.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Smoked Turkey Club</h4>
+                  <p>Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$8.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Tuna Sandwich</h4>
+                  <p>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$8.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- This is the end of the sandwiches menu -->
+
+      <!-- This col will be for the seafood menu -->
+      <div class="col-12">
+        <div class="container menuSectionSeafoodMobile">
+          <br>
+          <h3 class="food-type">Seafood</h3>
+          <p class="foodDescription">All seafood comes with a side of rice pilaf and grilled vegetables</p>
+          <div class="row">
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Honey Shrimp Skewers</h4>
+                  <p>Ten honey glazed shrimps grilled with sesame seeds and rosemary.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$15.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Grilled Salmon</h4>
+                  <p>Salmon grilled in a lime butter sauce.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$13.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Grilled Tilapia</h4>
+                  <p>A whole grilled tilapia cooked with smoked paprika.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$10.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Parmesan Fish Sticks</h4>
+                  <p>Sliced salmon in parmesan breading served with lemon dill tartar sauce.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$8.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- This is the end of the seafood menu -->
+
+      <!-- This col will be for the grill menu on the left side of the page -->
+      <div class="col-12">
+        <div class="container menuSectionGrillMobile">
+          <br>
+          <h3 class="food-type">On the Grill</h3>
+          <p class="foodDescription">Served with corn, cheddar biscuits, and your choice of coleslaw or potato salad.
+          </p>
+          <div class="row">
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Baby Back - Full Rack</h4>
+                  <p>A full rack of pork babyback ribs grilled and glazed with blackberry bbq.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$19.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Baby Back - Half Rack</h4>
+                  <p>A half rack of pork babyback ribs grilled and glazed with blackberry bbq.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$13.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Boneless Ribeye</h4>
+                  <p>A three inch thick boneless ribeye grilled in a rosemary rub and butter</p>
+                </div>
+                <div class="col-2">
+                  <h4>$25.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Smoked Turkey Club</h4>
+                  <p>Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$8.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItem">
+                <div class="col-10">
+                  <h4>Tuna Sandwich</h4>
+                  <p>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$6.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- This is the end of the grill menu -->
+
+      <!-- This col will be for the desserts menu -->
+      <div class="col-12">
+        <div class="container menuSectionDessertsMobile">
+          <br>
+          <h3 class="food-type">Desserts</h3>
+          <p class="foodDescription">A shot of esspresso can be added to any dessert for an additional $2.</p>
+          <div class="row">
+
+            <div class="col-12">
+              <div class="row menuItemMobile">
+                <div class="col-10">
+                  <h4>Double Walnut Brownies</h4>
+                  <p>Two brownies with a walnut crust, ice cream and chocolate sauce.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$8.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItemMobile">
+                <div class="col-10">
+                  <h4>Cheese Cake with Chocolate Sauce</h4>
+                  <p>Cheesecake with ice cream, chocolate shavings and chocolate sauce.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$7.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItemMobile">
+                <div class="col-10">
+                  <h4>Tripple Chocolate Brownie</h4>
+                  <p>A tripple chocolate brownie served with vanilla ice cream and walnuts.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$6.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItemMobile">
+                <div class="col-10">
+                  <h4>House Made Shaved Gelato and Cookies</h4>
+                  <p>Your choice of shaved gelato with whole cookies. Options change daily.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$5.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="row menuItemMobile">
+                <div class="col-10">
+                  <h4>Grilled Peaches and Ice Cream</h4>
+                  <p>Grilled peaches in cinnamon and brown sugar glaze with ice cream.</p>
+                </div>
+                <div class="col-2">
+                  <h4>$4.99</h4>
+                </div>
+                <hr>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- This is the end of the desserts menu -->
+
+    </div>
+  </div>
+
+  <!-- This is the end of the mobile version of the menu -->
+
+
+
+
+  <!-- This is the start of the footer code -->
+  <div class="container footer d-none d-lg-block">
+    <div class="row footer">
+      <div class="col-6">
+        <p>1357 Mutt Street, Rottweiler CA. 12345</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="col-6 footerRight">
+        <img class="footerLogo" height="30em" width="auto" src="../Assets/CompanyLogo.png"
+          alt="The logo for the company, which has text saying A Spaniel Company">
+        <p>Copyright © Muzzles Restaurant</p>
+      </div>
+    </div>
+  </div>
+  <!-- This is the end of the footer code -->
+  
+  <!-- This is the start of the footer code for tablet -->
+  <div class="container footerTablet d-block d-lg-none">
+    <div class="row footerTablet d-block d-lg-none">
+      <div class="col-12 d-flex justify-content-center">
+        <p>1357 Mutt Street, Rottweiler CA. 12345</p>
+      </div>
+      <div class="col-12">
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="col-12">
+        <img height="45em" width="auto" src="../Assets/CompanyLogo.png"
+          alt="The logo for the company, which has text saying A Spaniel Company">
+        <p>Copyright © Muzzles Restaurant</p>
+      </div>
+    </div>
+  </div>
+  <!-- This is the end of the footer code for tablet -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
