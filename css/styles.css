@@ -17,7 +17,105 @@
     src: url("../fonts/Montauk-Italic.otf");
     font-family: Montauk-Italic;
 }
+
 @font-face {
     src: url("../Fonts/FugazOne-Regular.ttf");
-    font-family: Fugaz One;
+    font-family: FugazOne-Regular;
+}
+
+.MontaukFont {
+    font-family: Montauk-Regular;
+    color: #5F002B;
+}
+
+.FugazFont {
+    font-family: FugazOne-Regular;
+    color: #5F002B;
+}
+
+body {
+    background-image: url("../Assets/bgtexture.jpg");
+}
+
+.homeImg1 {
+    background-image: url("../Assets/homeHero.jpg");
+    height: 600px;
+}
+
+.homeTextBG {
+    background-image: url("../Assets/HomeImage.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position-y: bottom;
+    margin-right: 5rem;
+    background-size: 100%;
+}
+.homeTextBGTab {
+    background-image: url("../Assets/HomeImage.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position-y: bottom;
+    margin-right: 5rem;
+    background-size: 100%;
+}
+.homeTextBGMob {
+    background-image: url("../Assets/HomeImage.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    margin-right: 5rem;
+    background-size: 100%;
+    background-position-x: center;
+    background-color: white;
+}
+
+.homeFoot {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.homeWordPadding {
+    padding-left: 1rem;
+}
+
+
+.cateringTxtBG {
+    background-color: white;
+}
+
+.cateringHeroImg {
+    background-image: url("../Assets/cateringHero.jpg");
+    height: 400px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.cateringHeroImgTab {
+    background-image: url("../Assets/cateringHero.jpg");
+    height: 200px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringWhiteBG {
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cateringBottomImgs {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.caterTxtSm {
+    font-size:small;
+}
+
+.caterImgPadding {
+    padding-bottom: 1rem;
 }
