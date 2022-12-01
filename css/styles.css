@@ -115,3 +115,7 @@ body {
 .caterTxtSm {
     font-size:small;
 }
+
+.caterImgPadding {
+    padding-bottom: 1rem;
+}
