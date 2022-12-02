@@ -32,6 +32,13 @@
     font-family: Fugaz One;
 }
 
+.navBarPadding {
+    padding-left: 20px;
+}
+.navFontSize {
+    font-size: 20px;
+}
+
 .menu-heading{
     display: flex;
     justify-content: center;
@@ -41,7 +48,11 @@
     background-color: white;
     font-family: Fugaz One;
     margin-bottom: 3em;
-    margin-top:1.6em;
+    margin-top: 41px;
+}
+.menuWordPad {
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .menu-heading-mobile{
@@ -69,6 +80,10 @@
 .menuImg{
     width: 39em;
     height: auto;
+}
+
+.aboutPadding {
+    margin-top: 44px;
 }
 
 .menuSectionSandwiches{
@@ -127,6 +142,7 @@ body {
 .homeImg1 {
     background-image: url("../Assets/homeHero.jpg");
     height: 600px;
+    margin-top: 44px;
 }
 
 .homeTextBG {
@@ -210,7 +226,7 @@ body {
 .cateringBottomImgs {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 5rem;
+    padding-bottom: 1.5rem;
     padding-top: 5rem;
 }
 
@@ -236,7 +252,11 @@ body {
     font-family: Montauk-Regular;
     color: #5F002B;
     width: 81em;
-    margin-top: 5em;
+    margin-top: 1rem;
+}
+
+.menuFootPad {
+    padding-top: 4rem;
 }
 
 .footerTablet{
