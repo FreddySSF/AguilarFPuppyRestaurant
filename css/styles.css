@@ -71,6 +71,10 @@
     background-image: url(../Assets/bgtexture.jpg);
 }
 
+.cateringPadTab {
+    padding-bottom:1rem;
+}
+
 .food-type{
     color: #5F002B;
     font-family: Fugaz One;
@@ -207,6 +211,16 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+.cateringWhiteBGMob {
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.CardBorderRadius {
+    border-radius: 0%;
+}
+
 .homeTextBG {
     background-color: white;
     width: 950;
