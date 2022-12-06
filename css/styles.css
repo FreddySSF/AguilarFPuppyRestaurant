@@ -81,7 +81,19 @@
 .food-type {
     color: #5F002B;
     font-family: Fugaz One;
-    padding-top: 10em;
+    padding-top: 8em;
+}
+
+.food-typeTablet {
+    color: #5F002B;
+    font-family: Fugaz One;
+    padding-top: 5em;
+}
+
+.food-typemobile {
+    color: #5F002B;
+    font-family: Fugaz One;
+    padding-top: 5em;
 }
 
 .menuImg {
@@ -99,6 +111,7 @@
     background-repeat: no-repeat;
     margin-bottom: 2em;
     padding-bottom: 2.5em;
+    background-size: 100%;
 }
 
 .menuSectionSeafood {
@@ -107,6 +120,16 @@
     background-repeat: no-repeat;
     margin-bottom: 2em;
     padding-bottom: 10em;
+    background-size: 100%;
+}
+
+.menuSectionSeafoodTablet {
+    background-color: white;
+    background-image: url("../Assets/menuseafood.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+    padding-bottom: 11em;
+    background-size: 100%;
 }
 
 .menuSectionGrill {
@@ -114,6 +137,7 @@
     background-image: url("../Assets/menumeat.jpg");
     background-repeat: no-repeat;
     padding-bottom: 2.5em;
+    background-size: 100%;
 }
 
 .menuSectionDesserts {
@@ -121,6 +145,7 @@
     background-image: url("../Assets/menudesserts.jpg");
     background-repeat: no-repeat;
     padding-bottom: 2.5em;
+    background-size: 100%;
 }
 
 .menuItem {
@@ -131,9 +156,27 @@
     margin-top: 2em;
 }
 
+.menuItemTablet {
+    margin: 0.5em;
+    height: 6em;
+    color: #5F002B;
+    font-family: Montauk-Regular;
+    margin-top: 2em;
+}
+
 .foodDescription {
     font-family: Montauk-Regular;
     color: #5F002B;
+}
+
+.foodDescriptionSand {
+    font-family: Montauk-Regular;
+    color: #5F002B;
+    height: 48px;
+}
+
+.fontSizeMenuTablet {
+    font-size: 11pt;
 }
 
 .FugazFont {
@@ -189,8 +232,7 @@ body {
     padding-left: 1rem;
 }
 
-
-.cateringTxtBG {
+menuSectionSandwiches .cateringTxtBG {
     background-color: white;
 }
 
@@ -332,7 +374,7 @@ hr {
     /* padding-bottom: 4em; */
 }
 
-.menuMobile {
+.food-type .menuMobile {
     display: flex;
     flex-direction: column;
 }
@@ -343,6 +385,7 @@ hr {
     background-repeat: no-repeat;
     margin-bottom: 2em;
     padding-bottom: 2.5em;
+    background-size: 100%;
 }
 
 .menuSectionSeafoodMobile {
@@ -351,6 +394,7 @@ hr {
     background-repeat: no-repeat;
     margin-bottom: 2em;
     padding-bottom: 2.5em;
+    background-size: 100%;
 }
 
 .menuSectionGrillMobile {
@@ -359,6 +403,7 @@ hr {
     background-repeat: no-repeat;
     padding-bottom: 2.5em;
     margin-bottom: 2em;
+    background-size: 100%;
 }
 
 .menuSectionDessertsMobile {
@@ -367,6 +412,7 @@ hr {
     background-repeat: no-repeat;
     padding-bottom: 2.5em;
     margin-bottom: 2em;
+    background-size: 100%;
 }
 
 .menuItemMobile {
