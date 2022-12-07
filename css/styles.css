@@ -197,6 +197,14 @@ body {
     background-repeat: no-repeat;
 }
 
+.homeImg1Tab {
+    background-image: url("../Assets/homeHero.jpg");
+    height: 300px;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .homeTextBG {
     background-image: url("../Assets/HomeImage.jpg");
     background-repeat: no-repeat;
