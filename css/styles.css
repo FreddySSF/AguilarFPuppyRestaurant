@@ -204,6 +204,9 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+.aboutCardFont {
+    font-size: 22px;
+}
 
 .homeTextBG {
     background-image: url("../Assets/HomeImage.jpg");
